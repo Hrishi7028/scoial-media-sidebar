@@ -36,7 +36,7 @@
 a i{
     padding-left: 8px;
     font-size: 23px;
-    animation: zoomin 3s linear alternate-reverse infinite;
+    animation: zoomin 2s linear alternate-reverse infinite;
     transition:all 0.3s linear;
 } 
 .twitter{
@@ -48,9 +48,16 @@ a i{
     
 }
 
+.insta{
+    background-color: #bc2a8d ;
+}
+.linkedin{
+    background-color: #0e76a8;
+}
+
 @keyframes zoomin{
     from{
-        transform: scale(0.6);
+        transform: scale(0.88);
     }
     to{
         transform: scale(1);
