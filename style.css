@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.icon_div{
+    position: fixed;
+    width: 190px;
+    top: 50%;
+    transform: translateY(-50% );
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.icon_div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    z-index: 10;
+    border: 1px solid grey;
+    border-radius: 3px;
+    transform: translateX(-149px);
+    transition: all 0.3s linear;
+}
+
+.icon_div a:hover{
+    transform: translateX(0);
+}
+
+a i{
+    padding-left: 8px;
+    font-size: 23px;
+    animation: zoomin 3s linear alternate-reverse infinite;
+    transition:all 0.3s linear;
+} 
+.twitter{
+    background-color: #00acee;
+    
+}
+.facebook{
+    background-color:#3b5998;
+    
+}
+
+@keyframes zoomin{
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(1);
+    }
+}
